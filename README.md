@@ -36,7 +36,6 @@ Les tests unitaires s'executent de la façon suivante :
 
 ```
 ./push_swap 9 3 1 4 -1 -498
-
 ```
 
 ---
