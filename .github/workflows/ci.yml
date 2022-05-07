@@ -1,0 +1,16 @@
+name: continuous integration 
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      
+    - name: Make and run unit test
+      run: make test DEBUG=1 && ./libft/utest && ./utest && make fclean && make && ./push_swap 2 7 -3 4 9 6 -47
