@@ -48,10 +48,9 @@ Les tests unitaires s'executent de la façon suivante :
 ---
 ### Tests automatisés :
 
-| [null](https://github.com/null) | 
+| [push_swap_tester](https://github.com/lmalki-h/push_swap_tester) | 
 | --- |
-| ![](./img/test1.png) |
-| ![](./img/test2.png) |
+| ![](./img/tester1.jpg) |
 
 ---
 ### Correction :
